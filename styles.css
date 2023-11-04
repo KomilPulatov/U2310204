@@ -1,23 +1,28 @@
 body {
-    background-color: #7f97e7;
+    background-color:lightyellow;
   }
   h1 {
     font-size: 36px;
+    color: midnightblue;
   }
   h2 {
     font-size: 20px;
+    color:indigo;
   }
   h3 {
     font-size: 20px;
+    color:indigo;
   }
   h4 {
     font-size: 20px;
+    color:indigo;
   }
   h5 {
     font-size: 20px;
+    color:indigo;
   }
   .color-word {
-    color: rgb(252, 255, 57);
+    color:gold;
     font-size: 18px;
     font-weight: 900;
   }
