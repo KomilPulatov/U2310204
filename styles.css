@@ -1,5 +1,5 @@
 body {
-    background-color: #5372a5;
+    background-color: #7f97e7;
   }
   h1 {
     font-size: 36px;
@@ -17,7 +17,11 @@ body {
     font-size: 20px;
   }
   .color-word {
-    color: #161728;
+    color: rgb(252, 255, 57);
     font-size: 18px;
     font-weight: 900;
+  }
+  img {
+    width: 200px;
+    height: 190px;
   }
