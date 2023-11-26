@@ -47,5 +47,3 @@ function restartGame() {
   question_id = 0;
   startGame();
 }
-
-
