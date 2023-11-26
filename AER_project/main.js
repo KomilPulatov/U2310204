@@ -41,9 +41,9 @@ function showAnswer() {
   }
 }
 
-// function restartGame() {
-//   let buttonElement = document.getElementById("NEXT");
-//   buttonElement.disabled = false;
-//   question_id = 0;
-//   startGame();
-// }
+function restartGame() {
+  let buttonElement = document.getElementById("NEXT");
+  buttonElement.disabled = false;
+  question_id = 0;
+  startGame();
+}
