@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "answers": [
+        {
+          "text": "Paris",
+          "correct": true
+        },
+        {
+          "text": "London",
+          "correct": false
+        },
+        {
+          "text": "Berlin",
+          "correct": false
+        },
+        {
+          "text": "Rome",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the largest planet in our solar system?",
+      "answers": [
+        {
+          "text": "Jupiter",
+          "correct": true
+        },
+        {
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "text": "Venus",
+          "correct": false
+        },
+        {
+          "text": "Saturn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Who painted the Mona Lisa?",
+      "answers": [
+        {
+          "text": "Leonardo da Vinci",
+          "correct": true
+        },
+        {
+          "text": "Pablo Picasso",
+          "correct": false
+        },
+        {
+          "text": "Vincent van Gogh",
+          "correct": false
+        },
+        {
+          "text": "Michelangelo",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
