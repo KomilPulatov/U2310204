@@ -17,7 +17,7 @@ function startGame() {
   questionElement.innerHTML = questionText;
   for (let i = 0; i < answers.length; i++) {
     let answerElement = document.getElementById(`answer${i}`);
-    answerElement.style.backgroundColor = "white";
+    answerElement.style.backgroundColor = null;
     answerElement.innerHTML = answers[i].text;
   }
   question_id++;
