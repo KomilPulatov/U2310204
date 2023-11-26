@@ -1,0 +1,32 @@
+body {
+    background-color:lightyellow;
+  }
+  h1 {
+    font-size: 36px;
+    color: midnightblue;
+  }
+  h2 {
+    font-size: 20px;
+    color:indigo;
+  }
+  h3 {
+    font-size: 20px;
+    color:indigo;
+  }
+  h4 {
+    font-size: 20px;
+    color:indigo;
+  }
+  h5 {
+    font-size: 20px;
+    color:indigo;
+  }
+  .color-word {
+    color:gold;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  img {
+    width: 200px;
+    height: 190px;
+  }
