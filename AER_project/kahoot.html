@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Offline Kahoot!</title>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="kahoot_style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Offline Kahoot!</h1>
+    </header>
+    <div>
+      <div id="game">
+        <div id="gameArea">
+          <div>
+            <button onclick="showAnswer()" id="SHOWANSWER" , class="button">
+              SHOW ANSWER
+            </button>
+            <button onclick="startGame()" id="NEXT" , class="button">
+              NEXT
+            </button>
+            <button onclick="restartGame()" id="RESTART" , class="button">
+              Restart Game
+            </button>
+          </div>
+          <div id="questionArea">
+            <div id="question" class="question"></div>
+            <div id="answers" class="answers">
+              <div id="answer0" class="answer0"></div>
+              <div id="answer1" class="answer1"></div>
+              <div id="answer2" class="answer2"></div>
+              <div id="answer3" class="answer3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
