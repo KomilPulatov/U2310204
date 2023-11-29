@@ -9,21 +9,30 @@ body {
 
 header {
   background-color: #3b8beb;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
+}
+.header {
+  background-color: #cde9d6;
+  padding: 200px;
 }
 
 main {
   background-color: #edf6ff;
+  padding: 20px;
 }
 .heading {
   color: #3b8beb;
-  font: 60px "Permanent Marker", cursive;
+  font: 80px "Permanent Marker", cursive;
+}
+.quote {
+  color: orange;
+  font: 40px "Permanent Marker";
 }
 .text {
   color: #b9932f;
   /* font: 40px "Arial", sans-serif; */
-  font-size: 45px;
+  font-size: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .dropdown {
@@ -70,65 +79,86 @@ a {
   gap: 20px;
   /* padding: 20px; */
 }
+.quizduel {
+  padding: 160px;
+  background-image: url("/AER_project/images/quizduel.png");
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 15px;
+}
 .kahoot {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/kahoot.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .literature {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/literature1.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .programming {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/programming.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .english {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/english.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .chemistry {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/chemistry.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .it {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/it.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .physics {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/Physics-Background.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .math {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/math.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
 }
 .biology {
-  padding: 150px;
+  padding: 160px;
   background-image: url("/AER_project/images/biology.jpg");
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 15px;
+}
+.history {
+  padding: 160px;
+  background-image: url("/AER_project/images/history.jpg");
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 15px;
+}
+.geography {
+  padding: 160px;
+  background-image: url("/AER_project/images/geography.jpg");
   background-size: cover;
   background-position: 100%;
   border-radius: 15px;
@@ -139,7 +169,7 @@ a {
   border: none;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* padding: 150px; */
+  /* padding: 160px; */
   position: relative;
   transition: transform 0.3s ease-out;
 }
@@ -148,15 +178,15 @@ a {
   transform: scale(1.05);
 }
 
-/* footer {
-  background-color: #663300;
+footer {
+  background-color: #437fc7;
   color: #fff;
-  padding: 100px;
-} */
+  padding: 10px;
+}
 
 /* Slider */
 .slideshow-container {
-  background-color: #d9eee1;
+  background-color: #cde9d6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +208,7 @@ a {
   width: auto;
   display: flex;
   justify-content: center;
-  background-color: #478ac9;
+  background-color: #6daffe;
   padding: 4rem;
   position: relative;
   border-radius: 1em;
