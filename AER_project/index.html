@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>AER project</title>
   </head>
@@ -10,7 +11,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="dropdown">
             <a href="#" class="dropbtn">Courses</a>
             <div class="dropdown-content">
@@ -22,74 +23,253 @@
             </div>
           </li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="charity.html">Charity</a></li>
+          <li><a href="q&a.html">Q&A</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="header">
-        <h1>Interactive Learning Platform</h1>
-        <p>Learn by playing</p>
+        <h1><span class="heading">Interactive Learning Platform</span></h1>
+        <h2><span class="text">Basic Courses</span></h2>
       </div>
       <div class="container">
         <div class="cards">
           <a href="math.html">
             <div class="card">
-              <h1>Mathematics</h1>
-              <div>
-                <p>Click here to learn Mathematics</p>
-              </div>
-            </div>
-          </a>
-          <a href="english.html">
-            <div class="card">
-              <h1>English</h1>
-              <div>
-                <p>Click here to learn English</p>
-              </div>
+              <div class="math"></div>
             </div>
           </a>
           <a href="physics.html">
             <div class="card">
-              <div class="physics">
-                <img src="" alt="">
-              </div>
+              <div class="physics"></div>
+            </div>
+          </a>
+          <a href="english.html">
+            <div class="card">
+              <div class="english"></div>
+            </div>
+          </a>
+          <a href="literature.html">
+            <div class="card">
+              <div class="literature"></div>
             </div>
           </a>
           <a href="programming.html">
             <div class="card">
-              <h1>Programming</h1>
-              <div>
-                <p>Click here to learn Programming</p>
-              </div>
+              <div class="programming"></div>
             </div>
           </a>
           <a href="it.html">
             <div class="card">
-              <h1>IT</h1>
-              <div>
-                <p>Click here to learn IT</p>
-              </div>
+              <div class="it"></div>
             </div>
           </a>
+          <a href="biology.html">
+            <div class="card">
+              <div class="biology"></div>
+            </div>
+          </a>
+          <a href="chemistry.html">
+            <div class="card">
+              <div class="chemistry"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2><span class="text">Offline Games</span></h2>
+      <div class="container">
+        <div class="cards">
           <a href="kahoot.html">
             <div class="card">
-              <h1>Offline Kahoot!</h1>
-              <div>
-                <p>Click here to play</p>
-              </div>
+              <div class="kahoot"></div>
             </div>
           </a>
         </div>
       </div>
     </main>
+    <!-- Team Slider -->
+    <section class="team-slider">
+      <div class="slideshow-container">
+        <h1 class="heading">Our Team</h1>
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/diylora.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Komil Po'latov</h1>
+              <h1>Group Leader</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: aquamarine"
+                >manage_accounts</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/diyora.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Raushan Panabaeva</h1>
+              <h1>Project Manager</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(146, 182, 255)"
+                >search</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/ibraxim.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Arman</h1>
+              <h1>Tester</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(172, 223, 159)"
+                >mic</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/Farrukh.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Muhammad</h1>
+              <h1>Developer</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(146, 248, 255)"
+                >psychology</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/gulbara.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Robiya</h1>
+              <h1>Researcher</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(246, 146, 255)"
+                >brush</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/Jasur.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Begzod</h1>
+              <h1>Designer</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(255, 213, 146)"
+                >person_search</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="container">
+            <div class="img-container appear">
+              <img src="images/team/sevi.jpg" />
+            </div>
+            <div class="text-container fade">
+              <h1 style="font-size: 40px">Samariddin</h1>
+              <h1>Video Editor</h1>
+              <i
+                class="material-icons"
+                style="font-size: 60px; color: rgb(255, 146, 146)"
+                >video_library</i
+              >
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        <!-- Dots -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
       <div class="footer">
-        <h1>Developers</h1>
-        <p>Komil</p>
-        <p>&copy; 2023 Your Website</p>
+        <div class="inha-emblem">
+          <a href="https://inha.uz/"><span class="inha-link"></span></a
+          ><object data="images/emblem.svg" type=""></object>
+        </div>
+        <div class="footer-text">
+          <p>
+            Academic English Reading Project made by students of Inha University
+            in Tashkent
+          </p>
+        </div>
+        <div class="social-media">
+          <span class="youtube-logo"
+            ><a href="https://www.youtube.com/@InhaUz"
+              ><i class="fa-brands fa-youtube" style="color: #f50000"></i></a
+          ></span>
+          <span class="facebook"
+            ><a href="https://www.facebook.com/inha.uz"
+              ><i class="fa-brands fa-facebook" style="color: #0f4299"></i></a
+          ></span>
+          <span class="telegram"
+            ><a href="https://t.me/inha_uz"
+              ><i class="fa-brands fa-telegram" style="color: #3a76df"></i></a
+          ></span>
+          <span class="instagram"
+            ><a href="https://www.instagram.com/inha_tashkent/"
+              ><i class="fa-brands fa-instagram" style="color: #c837ac"></i></a
+          ></span>
+        </div>
       </div>
     </footer>
+    <script src="slides.js"></script>
   </body>
 </html>
