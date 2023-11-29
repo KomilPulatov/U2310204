@@ -4,16 +4,46 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: peachpuff;
-
   text-align: center;
 }
 
 header {
   background-color: #1a0d00;
-  color: #fff;
-  padding: 100px;
+  padding: 20px;
   text-align: center;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #663300;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 a {
@@ -33,8 +63,12 @@ a {
   padding: 20px;
 }
 
+.physics {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw_2vddCMpUBF2qIlUDZr8kR6rX-XCzB8LyI8oZG0oLD9hDT05lcWTpwTXUZvJp1E1DFw&usqp=CAU://images.app.https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn-40H8PeVYgXZqpv-x1ZhkFmP38qij9A7PZh4Fv6UE3slAdqimY1u6WmejtnrYagsaNk&usqp=CAU.gl/3Ca6jmHrp8WAV6ATA);
+  background-size: cover;
+  background-position: center;
+}
 .card {
-  background-color: #0099cc;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 150px;
@@ -47,7 +81,7 @@ a {
   transform: scale(1.05);
 }
 
-.footer {
+footer {
   background-color: #663300;
   color: #fff;
   padding: 100px;

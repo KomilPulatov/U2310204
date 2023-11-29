@@ -5,6 +5,14 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 100;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -25,13 +33,18 @@ body {
 .answers {
   font-size: 25px;
   display: grid;
-  max-width: 1700px;
+  box-sizing: border-box;
+  /* max-width: 1700px; */
   grid-template-columns: repeat(2, 800px);
-  gap: 15px;
-  padding: 0;
-  margin: 0 auto;
+  /* gap: 15px; */
+  /* align-items: center;
+  justify-content: space-between; */
+  /* padding: 0; */
+  /* margin: 0 auto; */
+  margin-top: auto;
 }
 .answer0 {
+  box-sizing: border-box;
   background-color: #eb2121;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -40,6 +53,7 @@ body {
   border-radius: 15px;
 }
 .answer1 {
+  box-sizing: border-box;
   background-color: #1368ce;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,6 +63,7 @@ body {
 }
 
 .answer2 {
+  box-sizing: border-box;
   background-color: #ffa602;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,6 +73,7 @@ body {
 }
 
 .answer3 {
+  box-sizing: border-box;
   background-color: #26890c;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -67,6 +83,7 @@ body {
 }
 
 .button {
+  box-sizing: border-box;
   background-color: #724caf;
   color: #fff;
   padding: 20px;
