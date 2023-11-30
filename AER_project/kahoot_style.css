@@ -20,19 +20,21 @@ body {
   object-fit: cover;
   
 }
+
 h1 {
   font-size: 50px;
   color: #fff;
   margin: 0;
   padding: 20px;
 }
-/* .header {
+
+.header {
   box-sizing: border-box;
   background-color: #4caf50;
   color: #fff;
   padding: 20px;
   text-align: center;
-} */
+}
 
 #questionArea {
   display: grid;
