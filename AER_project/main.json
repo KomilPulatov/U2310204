@@ -2,111 +2,111 @@
   "questions": [
     {
       "id": 1,
-      "question_text": "What is the capital of France?",
+      "question_text": "What kind of dog never bites?",
       "answers": [
         {
-          "text": "Paris",
+          "text": "▲ Scooby doo",
+          "correct": false
+        },
+        {
+          "text": "◆ Cold dog",
+          "correct": false
+        },
+        {
+          "text": "⬤ Snoop dog",
+          "correct": false
+        },
+        {
+          "text": "▇ Hot dog",
           "correct": true
-        },
-        {
-          "text": "London",
-          "correct": false
-        },
-        {
-          "text": "Berlin",
-          "correct": false
-        },
-        {
-          "text": "Rome",
-          "correct": false
         }
       ]
     },
     {
       "id": 2,
-      "question_text": "What is the largest planet in our solar system?",
+      "question_text": "What begins with an E but only has one letter?",
       "answers": [
         {
-          "text": "Jupiter",
+          "text": "▲ Dog",
+          "correct": false
+        },
+        {
+          "text": "◆ Elevator",
+          "correct": false
+        },
+        {
+          "text": "⬤ Envelop",
           "correct": true
         },
         {
-          "text": "Mars",
-          "correct": false
-        },
-        {
-          "text": "Venus",
-          "correct": false
-        },
-        {
-          "text": "Saturn",
+          "text": "▇ Escalator",
           "correct": false
         }
       ]
     },
     {
       "id": 3,
-      "question_text": "Who painted the Mona Lisa?",
+      "question_text": "What can you catch but not throw?",
       "answers": [
         {
-          "text": "Leonardo da Vinci",
+          "text": "▲ Cold",
           "correct": true
         },
         {
-          "text": "Pablo Picasso",
+          "text": "◆ Ball",
           "correct": false
         },
         {
-          "text": "Vincent van Gogh",
+          "text": "⬤ Idea",
           "correct": false
         },
         {
-          "text": "Michelangelo",
+          "text": "▇ Friend",
           "correct": false
         }
       ]
     },
     {
       "id": 4,
-      "question_text": "**********",
+      "question_text": "What is at the end of everything?",
       "answers": [
         {
-          "text": "Leonardo da Vinci",
+          "text": "▲ Nothing",
+          "correct": false
+        },
+        {
+          "text": "◆ Letter G",
           "correct": true
         },
         {
-          "text": "Pablo Picasso",
+          "text": "⬤ End",
           "correct": false
         },
         {
-          "text": "Vincent van Gogh",
-          "correct": false
-        },
-        {
-          "text": "Michelangelo",
+          "text": "▇ Catasrophe",
           "correct": false
         }
       ]
     },
     {
       "id": 5,
-      "question_text": "**********",
+      "question_text": "Who is your favourite professsor and which course do you like the most?",
       "answers": [
         {
-          "text": "---------------",
-          "correct": false
-        },
-        {
-          "text": "-----------------",
-          "correct": false
-        },
-        {
-          "text": "-----------",
+          "text": "▲ Miss Ozoda and AER",
           "correct": true
         },
         {
-          "text": "-",
-          "correct": false
+          "text": "◆ Miss Ozoda and AER",
+          "correct": true
+        },
+        {
+          "text": "⬤ Miss Ozoda and AER",
+          "correct": true
+        },
+        {
+          "text": "▇ Miss Ozoda and AER",
+          "correct": true
         }
       ]
     }
